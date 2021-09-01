@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node-dev --respawn --pretty --transpile-only src/server.ts",
+    "start": "ts-node-dev --respawn --pretty --transpile-only index.ts",
     "build": "tsc --project ./",
     "start:prod": "node ./dist"
   },
