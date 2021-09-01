@@ -18,7 +18,7 @@ const firebaseClient = initializeApp({
   projectId,
 });
 
-async function startApolloServer() {
+const startApolloServer = async () => {
   const server = new ApolloServer({
     typeDefs,
     resolvers,
@@ -46,4 +46,4 @@ async function startApolloServer() {
   );
 }
 
-startApolloServer();
+export default startApolloServer;
